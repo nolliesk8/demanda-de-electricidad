@@ -1,0 +1,9 @@
+
+import pandas as pd
+archivo_csv=pd.read_csv('demanda-de-electricidad-datos-anuales.csv')
+
+demanda_de_electricidad=pd.DataFrame(archivo_csv)
+print(demanda_de_electricidad)
+print(demanda_de_electricidad.info())
+print(demanda_de_electricidad.describe())
+
